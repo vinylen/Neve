@@ -11,7 +11,7 @@
     ./colorschemes/rose-pine.nix
 
     ./completion/cmp.nix
-    ./completion/copilot.nix
+    # ./completion/copilot.nix
     ./completion/lspkind.nix
 
     ./dap/dap.nix
@@ -56,7 +56,7 @@
     ./ui/nui.nix
 
     ./utils/better-escape.nix
-    ./utils/neocord.nix
+    # ./utils/neocord.nix
     ./utils/hardtime.nix
     ./utils/harpoon.nix
     ./utils/illuminate.nix
