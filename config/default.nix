@@ -14,17 +14,15 @@
     # ./completion/copilot.nix
     ./completion/lspkind.nix
 
-    ./dap/dap.nix
+    # ./dap/dap.nix
 
     ./filetrees/neo-tree.nix
     ./git/gitsigns.nix
     ./git/diffview.nix
     ./git/lazygit.nix
-    # ./git/neogit.nix
 
-    ./languages/nvim-jdtls.nix
+    # ./languages/nvim-jdtls.nix
     ./languages/nvim-lint.nix
-    ./languages/typescript-tools-nvim.nix
     ./languages/treesitter/treesitter.nix
     ./languages/treesitter/treesitter-context.nix
     ./languages/treesitter/treesitter-textobjects.nix
@@ -63,7 +61,7 @@
     ./utils/markdown-preview.nix
     ./utils/mini.nix
     ./utils/neodev.nix
-    ./utils/neotest.nix
+    # ./utils/neotest.nix
     ./utils/nvim-autopairs.nix
     ./utils/nvim-colorizer.nix
     ./utils/nvim-surround.nix
