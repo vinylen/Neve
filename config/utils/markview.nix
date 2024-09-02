@@ -1,5 +1,5 @@
 {
-  plugins.markdown-preview = {
+  plugins.markview = {
     enable = true;
   };
 }
