@@ -1,6 +1,9 @@
 {
   plugins.lazygit = {
     enable = true;
+    settings = {
+      config_file_path = "config.yml";
+    };
   };
 
   extraConfigLua = ''
