@@ -12,7 +12,7 @@
 
     ./completion/cmp.nix
     # ./completion/copilot.nix
-    ./completion/lspkind.nix
+    # ./completion/lspkind.nix
 
     # ./dap/dap.nix
 
