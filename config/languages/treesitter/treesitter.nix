@@ -4,7 +4,7 @@
     settings = {
       indent = {enable = true;};
     };
-    folding = true;
+    folding = false;
     nixvimInjections = true;
   };
 }
