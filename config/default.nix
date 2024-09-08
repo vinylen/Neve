@@ -55,7 +55,7 @@
 
     ./utils/better-escape.nix
     # ./utils/neocord.nix
-    ./utils/hardtime.nix
+    # ./utils/hardtime.nix
     ./utils/harpoon.nix
     ./utils/illuminate.nix
     # ./utils/markdown-preview.nix
