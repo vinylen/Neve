@@ -59,6 +59,8 @@
         pyright = {enable = true;};
         ruff-lsp = {enable = true;};
         gopls = {enable = true;};
+        terraformls = {enable = true;};
+
 
         rust-analyzer = {
           enable = true;
