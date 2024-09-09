@@ -15,6 +15,7 @@
       nix = ["alejandra"];
       markdown = [["prettierd" "prettier"]];
       rust = ["rustfmt"];
+      terraform = ["tofu_fmt"];
     };
   };
 
