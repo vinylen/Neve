@@ -19,7 +19,7 @@
     ./filetrees/neo-tree.nix
     ./git/gitsigns.nix
     ./git/diffview.nix
-    # ./git/lazygit/lazygit.nix
+    ./git/lazygit/lazygit.nix
 
     # ./languages/nvim-jdtls.nix
     ./languages/nvim-lint.nix
