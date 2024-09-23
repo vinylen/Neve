@@ -6,19 +6,17 @@
     {
       mode = ["n" "v"];
       key = "<leader>gdo";
-      action = "DiffViewOpen";
+      action = "<cmd>DiffViewOpen<CR>";
       options = {
-        silent = true;
-        desc = "+diffview open";
+        desc = "diffview open";
       };
     }
     {
       mode = ["n" "v"];
       key = "<leader>gdf";
-      action = "DiffViewFileHistory";
+      action = "<cmd>DiffViewFileHistory<CR>";
       options = {
-        silent = true;
-        desc = "+diffview File History";
+        desc = "diffview File History";
       };
     }
   ];
