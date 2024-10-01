@@ -33,7 +33,7 @@
 
     # ./none-ls/none-ls.nix
 
-    ./pluginmanagers/lazy.nix
+    # ./pluginmanagers/lazy.nix
 
     ./snippets/luasnip.nix
 
