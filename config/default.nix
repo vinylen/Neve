@@ -21,7 +21,7 @@
     ./languages/nvim-lint.nix
     ./languages/treesitter/treesitter.nix
     ./languages/treesitter/treesitter-context.nix
-    ./languages/treesitter/treesitter-textobjects.nix
+    # ./languages/treesitter/treesitter-textobjects.nix
     ./languages/treesitter/ts-autotag.nix
     ./languages/treesitter/ts-context-commentstring.nix
 
@@ -31,7 +31,7 @@
     ./lsp/lspsaga.nix
     ./lsp/trouble.nix
 
-    ./none-ls/none-ls.nix
+    # ./none-ls/none-ls.nix
 
     ./pluginmanagers/lazy.nix
 
