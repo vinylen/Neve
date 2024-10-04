@@ -1,4 +1,18 @@
-{
+{pkgs, ...}: {
+  extraPlugins = [
+    (pkgs.vimUtils.buildVimPlugin {
+      name = "darkvoid.nvim";
+      src = pkgs.fetchFromGitHub {
+        owner = "Aliqyan-21";
+        repo = "darkvoid.nvim";
+        rev = "3f6a9b15f6a7deb27e002d536afbb317a8a167c2";
+        hash = "";
+      };
+    })
+  ];
+  extraConfigLua = ''
+    require('darkvoid').setup
+  '';
   # Import all your configuration modules here
   imports = [
     ./sets.nix
@@ -7,7 +21,7 @@
     ./bufferlines/bufferline.nix
 
     # ./colorschemes/base16.nix
-    ./colorschemes/catppuccin.nix
+    # ./colorschemes/catppuccin.nix
     # ./colorschemes/rose-pine.nix
 
     ./completion/cmp.nix
