@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   extraPlugins = [
     (pkgs.vimUtils.buildVimPlugin {
-      name = "darkvoid.nvim";
+      pname = "darkvoid.nvim";
       src = pkgs.fetchFromGitHub {
         owner = "Aliqyan-21";
         repo = "darkvoid.nvim";
@@ -10,9 +10,13 @@
       };
     })
   ];
-  # extraConfigLua = ''
-  #   require('darkvoid').setup
-  # '';
+  extraConfigLua = ''
+    require('darkvoid').setup({
+      transparent = false,
+      glow = false,
+      show_end_of_buffer = true
+    })
+  '';
   # Import all your configuration modules here
   imports = [
     ./sets.nix
