@@ -10,9 +10,9 @@
       };
     })
   ];
-  extraConfigLua = ''
-    require('darkvoid').setup
-  '';
+  # extraConfigLua = ''
+  #   require('darkvoid').setup
+  # '';
   # Import all your configuration modules here
   imports = [
     ./sets.nix
