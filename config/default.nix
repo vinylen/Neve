@@ -6,7 +6,7 @@
         owner = "Aliqyan-21";
         repo = "darkvoid.nvim";
         rev = "3f6a9b15f6a7deb27e002d536afbb317a8a167c2";
-        hash = "";
+        hash = "sha256-FnGTWbYzqw3HAAXG0EFIEJiMD4vXCL1GUykZFg8zhwU=";
       };
     })
   ];
