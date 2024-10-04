@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   extraPlugins = [
     (pkgs.vimUtils.buildVimPlugin {
-      pname = "darkvoid.nvim";
+      name = "darkvoid.nvim";
       src = pkgs.fetchFromGitHub {
         owner = "Aliqyan-21";
         repo = "darkvoid.nvim";
