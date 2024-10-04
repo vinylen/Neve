@@ -1,22 +1,23 @@
-{pkgs, ...}: {
-  extraPlugins = [
-    (pkgs.vimUtils.buildVimPlugin {
-      name = "darkvoid.nvim";
-      src = pkgs.fetchFromGitHub {
-        owner = "Aliqyan-21";
-        repo = "darkvoid.nvim";
-        rev = "3f6a9b15f6a7deb27e002d536afbb317a8a167c2";
-        hash = "sha256-FnGTWbYzqw3HAAXG0EFIEJiMD4vXCL1GUykZFg8zhwU=";
-      };
-    })
-  ];
-  extraConfigLua = ''
-    require('darkvoid').setup({
-      transparent = false,
-      glow = false,
-      show_end_of_buffer = true
-    })
-  '';
+# {pkgs, ...}:
+{
+  # extraPlugins = [
+  #   (pkgs.vimUtils.buildVimPlugin {
+  #     name = "darkvoid.nvim";
+  #     src = pkgs.fetchFromGitHub {
+  #       owner = "Aliqyan-21";
+  #       repo = "darkvoid.nvim";
+  #       rev = "3f6a9b15f6a7deb27e002d536afbb317a8a167c2";
+  #       hash = "sha256-FnGTWbYzqw3HAAXG0EFIEJiMD4vXCL1GUykZFg8zhwU=";
+  #     };
+  #   })
+  # ];
+  # extraConfigLua = ''
+  #   require('darkvoid').setup({
+  #     transparent = false,
+  #     glow = false,
+  #     show_end_of_buffer = true
+  #   })
+  # '';
   # Import all your configuration modules here
   imports = [
     ./sets.nix
@@ -25,7 +26,7 @@
     ./bufferlines/bufferline.nix
 
     # ./colorschemes/base16.nix
-    # ./colorschemes/catppuccin.nix
+    ./colorschemes/catppuccin.nix
     # ./colorschemes/rose-pine.nix
 
     ./completion/cmp.nix
