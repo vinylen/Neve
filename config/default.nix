@@ -80,7 +80,7 @@
     ./utils/mini.nix
     ./utils/neodev.nix
     # ./utils/neotest.nix
-    ./utils/nvim-autopairs.nix
+    # ./utils/nvim-autopairs.nix
     ./utils/nvim-colorizer.nix
     ./utils/nvim-surround.nix
     # ./utils/oil.nix
@@ -91,7 +91,7 @@
     ./utils/tmux-navigator.nix
     ./utils/todo-comments.nix
     ./utils/toggleterm.nix
-    ./utils/ultimate-autopair.nix
+    # ./utils/ultimate-autopair.nix
     ./utils/undotree.nix
     # ./utils/wakatime.nix
     ./utils/whichkey.nix
